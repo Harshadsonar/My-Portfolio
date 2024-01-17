@@ -88,6 +88,16 @@ export const Projects = () => {
       description: "Design & Development",
       imgUrl: projImg1,
     },
+    {
+      title: "Podcast Platform",
+      description: "Design & Development",
+      imgUrl: projImg1,
+    },
+    {
+      title: "Podcast Platform",
+      description: "Design & Development",
+      imgUrl: projImg1,
+    },
   ];
 
   return (

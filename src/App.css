@@ -638,6 +638,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     width: 100%;
 }
 
+.d-flex {
+    max-height: 500px;
+}
+
 
 /************ Footer Css ************/
 

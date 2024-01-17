@@ -7,9 +7,14 @@ import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
 import { NavigationBar } from './components/NavigationBar';
 
+
 function App() {
+
+  
+
   return (
-    <div className="App">
+    <div className="App" >
+      
       <NavigationBar />
       <Banner />
       <Skills />

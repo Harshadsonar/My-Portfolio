@@ -38,19 +38,19 @@ export const Skills = () => {
                         <p>I have developed the most interest in front-end technologies because I am a creative person and I really like designing. The best part about this field is I can actually look at my results and interact with it. I have good knowledge of HTML, CSS, javascript, DSA, bootstrap, REACT JS, and redux.<br></br>I've developed projects like podcast-platform, Google sheet app, chat app, alarm app and many more.</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={meter1} alt="Image1" />
                                 <h5>Web Development</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />
+                                <img src={meter2} alt="Image2" />
                                 <h5>JavaScript</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="Image" />
+                                <img src={meter3} alt="Image3" />
                                 <h5>ReactJS</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={meter1} alt="Image4" />
                                 <h5>JAVA</h5>
                             </div>
                         </Carousel>
@@ -58,7 +58,7 @@ export const Skills = () => {
                 </div>
             </div>
         </div>
-        <img className="background-image-left" src={colorSharp} alt="Image" />
+        <img className="background-image-left" src={colorSharp} alt="Image5" />
     </section>
   )
 }
