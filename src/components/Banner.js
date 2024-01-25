@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import coder from "../assets/img/coder.png";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import TrackVisibility from 'react-on-screen';
+import { Contact } from "./Contact";
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -57,7 +58,7 @@ export const Banner = () => {
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Harshad`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI Designer","Frontend Developer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>I have developed the most interest in front-end technologies because I am a creative person and I really like designing. The best part about this field is I can actually look at my results and interact with it. I have good knowledge of HTML, CSS, javascript, DSA, bootstrap, REACT JS, and redux.</p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  <button href="./Contact.js">Let’s Connect <ArrowRightCircle size={25}/></button>
               </div>}
             </TrackVisibility>
           </Col>

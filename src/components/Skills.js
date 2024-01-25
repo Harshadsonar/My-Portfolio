@@ -3,8 +3,6 @@ import meter2 from "../assets/img/meter2.svg";
 import meter3 from "../assets/img/meter3.svg";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import arrow1 from "../assets/img/arrow1.svg";
-import arrow2 from "../assets/img/arrow2.svg";
 import colorSharp from "../assets/img/color-sharp.png"
 
 export const Skills = () => {
@@ -35,11 +33,11 @@ export const Skills = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2>Skills</h2>
-                        <p>I have developed the most interest in front-end technologies because I am a creative person and I really like designing. The best part about this field is I can actually look at my results and interact with it. I have good knowledge of HTML, CSS, javascript, DSA, bootstrap, REACT JS, and redux.<br></br>I've developed projects like podcast-platform, Google sheet app, chat app, alarm app and many more.</p>
+                        <p>I have developed the most interest in front-end technologies because I am a creative person and I really like designing. The best part about this field is I can actually look at my results and interact with it. I have good knowledge of HTML, CSS, javascript, DSA, bootstrap, REACT JS, and redux.<br></br>I've developed projects like podcast-platform, Crypto Tracker app, Github Listing Page, Real-time text analyzer app and many more.</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 <img src={meter1} alt="Image1" />
-                                <h5>Web Development</h5>
+                                <h5>HTML</h5>
                             </div>
                             <div className="item">
                                 <img src={meter2} alt="Image2" />
@@ -52,6 +50,22 @@ export const Skills = () => {
                             <div className="item">
                                 <img src={meter1} alt="Image4" />
                                 <h5>JAVA</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter2} alt="Image5" />
+                                <h5>CSS</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter3} alt="Image6" />
+                                <h5>DSA</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter1} alt="Image7" />
+                                <h5>OOPS</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter2} alt="Image8" />
+                                <h5>Bootstrap</h5>
                             </div>
                         </Carousel>
                     </div>
