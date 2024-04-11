@@ -128,6 +128,11 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
     opacity: 0.75;
 }
 
+nav.navbar .navbar-nav .nav-link.navbar-link a {
+    text-decoration: none;
+    color: #fff !important;
+}
+
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
 nav.navbar .navbar-nav a.nav-link.navbar-link.active {
     opacity: 1;
@@ -636,6 +641,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .contact form button:hover::before {
     width: 100%;
+}
+
+.d-flex {
+    max-height: 500px;
 }
 
 

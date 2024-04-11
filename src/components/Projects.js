@@ -1,8 +1,23 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import projImg1 from "../assets/repository-images/Screenshot Podcast Platform.png";
+import projImg2 from "../assets/repository-images/Screenshot CryptoTracker.png";
+import projImg3 from "../assets/repository-images/Screenshot Text Analyzer App.png";
+import projImg4 from "../assets/repository-images/Screenshot My spreadsheet - Google Sheets.png";
+import projImg5 from "../assets/repository-images/Screenshot Phoenix Buses.png";
+import projImg6 from "../assets/repository-images/Screenshot React Calculator.png";
+import projImg7 from "../assets/repository-images/Screenshot Counter Application.png";
+import projImg8 from "../assets/repository-images/Screenshot User Authentication system.png";
+import projImg9 from "../assets/repository-images/Screenshot of My Portfolio.png";
+import projImg10 from "../assets/repository-images/Screenshot dictionary app.png";
+import projImg11 from "../assets/repository-images/Screenshot Youtube Clone.png";
+import projImg12 from "../assets/repository-images/Screenshot Signup.png";
+import projImg13 from "../assets/repository-images/Screenshot Post Office Application.png";
+import projImg14 from "../assets/repository-images/Screenshot OMDB Movie Search Dashboard.png";
+import projImg15 from "../assets/repository-images/Screenshot NASA Picture of the day.png";
+import projImg16 from "../assets/repository-images/Screenshot Multiple Timers App.png";
+import projImg17 from "../assets/repository-images/Screenshot MeShop.png";
+import projImg18 from "../assets/repository-images/Screenshot online bookstore app.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import TrackVisibility from "react-on-screen";
 
@@ -26,67 +41,77 @@ export const Projects = () => {
     {
       title: "Google Sheet App",
       description: "Design & Development",
-      imgUrl: projImg1,
+      imgUrl: projImg4,
     },
     {
       title: "phoenix bus Booking App",
       description: "Design & Development",
-      imgUrl: projImg2,
+      imgUrl: projImg5,
     },
     {
       title: "React Calculator",
       description: "Design & Development",
-      imgUrl: projImg3,
+      imgUrl: projImg6,
     },
     {
-      title: "Podcast Platform",
+      title: "Counter App",
       description: "Design & Development",
-      imgUrl: projImg1,
+      imgUrl: projImg7,
     },
     {
-      title: "Podcast Platform",
+      title: "User Auth System",
       description: "Design & Development",
-      imgUrl: projImg1,
+      imgUrl: projImg8,
     },
     {
-      title: "Podcast Platform",
+      title: "My Portfolio App",
       description: "Design & Development",
-      imgUrl: projImg1,
+      imgUrl: projImg9,
     },
     {
-      title: "Podcast Platform",
+      title: "Dictionary App",
       description: "Design & Development",
-      imgUrl: projImg1,
+      imgUrl: projImg10,
     },
     {
-      title: "Podcast Platform",
+      title: "Youtube App",
       description: "Design & Development",
-      imgUrl: projImg1,
+      imgUrl: projImg11,
     },
     {
-      title: "Podcast Platform",
+      title: "Signup Form",
       description: "Design & Development",
-      imgUrl: projImg1,
+      imgUrl: projImg12,
     },
     {
-      title: "Podcast Platform",
+      title: "Post Office App",
       description: "Design & Development",
-      imgUrl: projImg1,
+      imgUrl: projImg13,
     },
     {
-      title: "Podcast Platform",
+      title: "IMDB Movie App",
       description: "Design & Development",
-      imgUrl: projImg1,
+      imgUrl: projImg14,
     },
     {
-      title: "Podcast Platform",
+      title: "NASA Picture Page",
       description: "Design & Development",
-      imgUrl: projImg1,
+      imgUrl: projImg15,
     },
     {
-      title: "Podcast Platform",
+      title: "Multiple Timer App",
       description: "Design & Development",
-      imgUrl: projImg1,
+      imgUrl: projImg16,
+    },
+    {
+      title: "MeShop App",
+      description: "Design & Development",
+      imgUrl: projImg17,
+    },
+    {
+      title: "Podcast ",
+      description: "Design & Development",
+      imgUrl: projImg18,
     },
   ];
 
