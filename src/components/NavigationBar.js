@@ -5,6 +5,7 @@ import laptopcode from '../assets/img/laptopcode.svg';
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import gmail from '../assets/img/gmail.svg';
 import whatsapp from '../assets/img/whatsapp.svg';
+import github from '../assets/img/MdiGithub.svg';
 import { HashLink } from 'react-router-hash-link';
 import {
   BrowserRouter as Router
@@ -54,6 +55,7 @@ export const NavigationBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
+                <a href="https://github.com/Harshadsonar" target="_blank"><img src={github} alt="Github" /></a>
                 <a href="https://www.linkedin.com/in/harshad-sonar/" target="_blank"><img src={navIcon1} alt="Linkedin" /></a>
                 <a href="https://www.sonarharshad02@gmail.com/" target="_blank"><img src={gmail} alt="Gmail" /></a>
                 <a href="https://wa.me/8237382014" target="_blank"><img src={whatsapp} alt="Whatsapp"/></a>
